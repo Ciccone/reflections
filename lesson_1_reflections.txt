@@ -1,0 +1,65 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I was able to easily spot what code was added or modified (changed/deleted).
+    This allowed me to focus on the changes and proofread.
+    Without file comparing programs, a typo could spell disaster for a
+    large program.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Building (and testing) your programs in incremental steps is a good habit.
+    Having access to earlier, working programs allows you to backtrack if major
+    code revisions are needed somewhere down the line. The commits also list a
+    time and date, so you will easily be able to see how long it took to add
+     certain features.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    If you do not pay attention to making regular commits, you may
+    end up losing code in case of some sort of catastrophic failure (say
+    accidentally closing your text editor). Automatically saved versions would
+    be good backups, but manually saved commits with logical changes, with
+    compilable/executable code is preferred for debugging and referencing
+    purposes.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Programming projects often require simultaneous changes across multiple
+    files, whereas most files (text and media) stored on Google Docs are often
+    separate entities (which can be rudimentarily organized in directories).
+    For programming projects we may need to quickly revert
+    multiple files across multiple directories back to a previous snapshot
+    in order to keep the program fully functioning. Git therefore is best suited
+    for programming projects.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The git log command will show a list of all the commits and their basic info
+    for the repo(s?) contained in the cwd. Use the --stat flag to view more
+    information such as which file was changed in the commit as well as the #
+    of insertions and deletions. Using the git diff command will compare the
+    differences between two commits and display the output to the terminal.
+    This output shows insertions/deletions in files(s) from between the 1st
+    and 2nd commits (the IDs of which you entered in the command).
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I can easily use the checkout command to try out the program in previous
+    states (i.e. commits). The directory of the repo itself will automatically
+    show the files in the state you checked-out. No more having to create
+    temporary directories of the same files in order to test previous versions
+    of the code. I can also save the changes of my tinkering by branching.
+    It seems we have to keep track of the HEAD (commit's) ID however if we
+    would like to revert to the current commit. Is there a way to automatically
+    do this without remembering its ID?
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To manage my programming projects and to start learning web development,
+    data structures, and algorithms. 
