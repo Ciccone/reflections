@@ -1,0 +1,29 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    There needs to be a directory and metadata files created in order to keep
+    track of the commit history and which files are being tracked in a certain
+    repository. The top folder of the repo contains:
+    - A .git subfolder with all the git related revision history of your repo
+    - A working tree, or checked out copies of your project files.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+    The staging area allows you to collect your thoughts when determining
+    which files to track the changes of for each commit. It allows you to
+    add/remove files from a repo for each commit. The working directory refers
+    to the directory you were in when you called git init to create the repo.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
