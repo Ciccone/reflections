@@ -1,1 +1,35 @@
-When would you want to create a remote repository rather than keeping all your work local?
+When would you want to create a remote repository rather than keeping all
+your work local?
+
+    Remote repositories are helpful if you would like to backup your work,
+    collaborate with others, continue your work when away from your primary
+    development machine, or to release code for public use and review.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    Manually pulling from the remote repository ensures that local work (which
+    you have not yet pushed to the remote) is not automatically overwritten
+    by an updated remote. This can easily occur when working collaboratively.
+    If a colleague pushes changes to the remote then you would have to safely
+    merge those changes into any commits you've made on the branch locally.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    Fill in your answer here
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    Fill in your answer here
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    Fill in your answer here
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    Fill in your answer here
